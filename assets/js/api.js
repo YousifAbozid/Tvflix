@@ -11,9 +11,9 @@ const imageBaseURL = 'https://image.tmdb.org/t/p/'
  * @param {any} optionalParams - Optional parameters that can be passed to the callback function.
  */
 const fetchDataFromServer = function (url, callback, optionalParams) {
-  fetch(url)
-    .then((response) => response.json())
-    .then((data) => callback(data, optionalParams))
+	fetch(url)
+		.then((response) => response.json())
+		.then((data) => callback(data, optionalParams))
 }
 
 export { api_key, imageBaseURL, fetchDataFromServer }

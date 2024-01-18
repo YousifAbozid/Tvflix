@@ -3,12 +3,12 @@
 import { imageBaseURL } from './api.js'
 
 export function createMovieCard(movie) {
-  const { id, poster_path, title, release_date, vote_average } = movie
+	const { id, poster_path, title, release_date, vote_average } = movie
 
-  const card = document.createElement('div')
-  card.classList.add('movie-card')
+	const card = document.createElement('div')
+	card.classList.add('movie-card')
 
-  card.innerHTML = `
+	card.innerHTML = `
     <figure class="poster-box card-banner">
       <img src="${imageBaseURL}w342${poster_path}" alt="${title}" class="img-cover" />
     </figure>
@@ -27,5 +27,5 @@ export function createMovieCard(movie) {
     <a href="./detail.html" onclick="getMovieDetail(${id})" class="card-btn" title="${title}"></a>
   `
 
-  return card
+	return card
 }

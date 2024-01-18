@@ -891,18 +891,15 @@ body {
   }
 }
 
-/* 
-	Responsive for larger than 1200px screen
-*/
+/* Responsive for larger than 1200px screen */
 
 @media (min-width: 1200px) {
   /* home page */
-
   .header {
     padding: 28px 56px;
   }
 
-  .logo .img {
+  .logo img {
     width: 160px;
   }
 
@@ -911,7 +908,7 @@ body {
     display: none;
   }
 
-  .main {
+  main {
     display: grid;
     grid-template-columns: 250px 1fr;
   }
@@ -938,7 +935,7 @@ body {
   }
 
   .banner-content {
-    left: 100%;
+    left: 100px;
   }
 
   .search-modal {
@@ -946,8 +943,7 @@ body {
     padding: 60px;
   }
 
-  /* detail page */
-
+  /* Movie Detail Page */
   .backdrop-image {
     border-top-left-radius: var(--radius-36);
   }

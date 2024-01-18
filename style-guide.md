@@ -4,10 +4,10 @@
 
 Google font
 
-``` html
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+```html
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet" />
 ```
 
 ---
@@ -16,7 +16,7 @@ Google font
 
 ### Background color
 
-``` css
+```css
 --background: hsla(220, 17%, 7%, 1);
 --banner-background: hsla(250, 6%, 20%, 1);
 --white-alpha-20: hsla(0, 0%, 100%, 0.2);
@@ -33,14 +33,14 @@ Google font
 
 ### Gradient color
 
-``` css
+```css
 --banner-overlay: 90deg, hsl(220, 17%, 7%) 0%, hsla(220, 17%, 7%, 0.5) 100%;
 --bottom-overlay: 180deg, hsla(250, 13%, 11%, 0), hsla(250, 13%, 11%, 1);
 ```
 
 ## Typography
 
-``` css
+```css
 --ff-dm-sans: 'DM Sans', sans-serif;
 
 --fs-heading: 4rem;
@@ -55,14 +55,14 @@ Google font
 
 ## Shadow
 
-``` css
+```css
 --shadow-1: 0 1px 4px hsla(0, 0%, 0%, 0.75);
 --shadow-2: 0 2px 4px hsla(350, 100%, 43%, 0.3);
 ```
 
 ## Border Radius
 
-``` css
+```css
 --radius-4: 4px;
 --radius-8: 8px;
 --radius-16: 16px;
@@ -72,7 +72,7 @@ Google font
 
 ## Transition
 
-``` css
+```css
 --transition-short: 250ms ease;
 --transition-long: 500ms ease;
 ```
